@@ -1,7 +1,39 @@
 import 'package:flutter/material.dart';
 import 'package:birdle/game.dart';
+import 'package:birdle/external_process_manager.dart';
+import 'package:birdle/external_process_manager_windows.dart';
+import 'dart:io';
+import 'dart:ui';
 
-void main() {
+void main() async {
+  // Đảm bảo Flutter binding được khởi tạo trước khi gọi logic không đồng bộ
+  WidgetsFlutterBinding.ensureInitialized();
+
+  // Tự động khởi động Mock Service tùy theo hệ điều hành
+  if (Platform.isWindows) {
+    await ExternalProcessManagerWindows.startWindowsService();
+  } else {
+    await ExternalProcessManager.startMockApi();
+  }
+
+  // Lắng nghe tín hiệu tắt app từ Terminal (Ctrl+C)
+  for (final signal in [ProcessSignal.sigint, ProcessSignal.sigterm]) {
+    signal.watch().listen((_) {
+      ExternalProcessManager.stopMockApi();
+      ExternalProcessManagerWindows.stopWindowsService();
+      exit(0);
+    });
+  }
+
+  // Bắt sự kiện thoát app trên Desktop (nút X cửa sổ)
+  AppLifecycleListener(
+    onExitRequested: () async {
+      ExternalProcessManager.stopMockApi();
+      ExternalProcessManagerWindows.stopWindowsService();
+      return AppExitResponse.exit;
+    },
+  );
+
   runApp(const MainApp());
 }
 
