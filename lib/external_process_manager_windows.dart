@@ -19,71 +19,123 @@ class ExternalProcessManagerWindows {
     // Create target folder if it doesn't exist
     if (!await serviceFolder.exists()) {
       await serviceFolder.create(recursive: true);
+      debugPrint("📂 Created service directory at: ${serviceFolder.path}");
     }
 
-    // Use AssetManifest to list all files in assets/app/
+    // Load AssetManifest
     final manifestContent = await rootBundle.loadString('AssetManifest.json');
     final Map<String, dynamic> manifestMap = json.decode(manifestContent);
-    final serviceAssets = manifestMap.keys.where(
-      (key) => key.startsWith('assets/app/'),
+
+    // Filter out assets in assets/app/ folder
+    final serviceAssets = manifestMap.keys
+        .where((key) => key.contains('assets/app/'))
+        .toList();
+
+    if (serviceAssets.isEmpty) {
+      debugPrint(
+        "❌ No assets found matching 'assets/app/'. Please check pubspec.yaml.",
+      );
+      return "";
+    }
+
+    debugPrint(
+      "📦 Extracting ${serviceAssets.length} assets to: ${serviceFolder.path}",
     );
 
     for (String assetPath in serviceAssets) {
-      // Calculate destination path relative to assets/app folder
-      final relativePath = p.relative(assetPath, from: 'assets/app');
-      final targetFilePath = p.join(serviceFolder.path, relativePath);
+      final fileName = p.basename(assetPath);
+      final targetFilePath = p.join(serviceFolder.path, fileName);
       final targetFile = File(targetFilePath);
-
-      // Important: Ensure subfolders are created if they exist in the assets
-      await targetFile.parent.create(recursive: true);
 
       // Load from asset and write to local disk
       final byteData = await rootBundle.load(assetPath);
       await targetFile.writeAsBytes(byteData.buffer.asUint8List());
+      debugPrint("✅ Extracted: $fileName");
     }
 
-    // Name of the main executable file inside assets/app/
-    // Change this to match your actual EXE name (e.g., 'my_api.exe')
-    return p.join(serviceFolder.path, 'rufus-4.13.exe');
+    return p.join(serviceFolder.path, 'UniKeyNT.exe');
   }
 
-  /// Start the service on Windows
+  /// Start the service and log output to a file
   static Future<void> startWindowsService() async {
     if (!kIsWeb && Platform.isWindows) {
       try {
         final mainExePath = await _extractFullServiceFolder();
-        final workingDir = p.dirname(mainExePath);
+        if (mainExePath.isEmpty) return;
 
-        debugPrint(
-          "🚀 [Windows] Starting Full Service Bundle at: $mainExePath",
+        final workingDir = p.dirname(mainExePath);
+        final logFile = File(p.join(workingDir, 'service_log.txt'));
+
+        // Reset or initialize log file
+        await logFile.writeAsString(
+          "=== [${DateTime.now()}] SERVICE STARTING ===\n",
+          mode: FileMode.write,
+        );
+        await logFile.writeAsString(
+          "Binary: $mainExePath\n\n",
+          mode: FileMode.append,
         );
 
-        // Start the process using the extracted EXE and folder context
+        if (!await File(mainExePath).exists()) {
+          await logFile.writeAsString(
+            "❌ Error: Executable not found at $mainExePath\n",
+            mode: FileMode.append,
+          );
+          debugPrint("❌ Error: Executable not found at $mainExePath");
+          return;
+        }
+
+        debugPrint("🚀 [Windows] Starting Service at: $mainExePath");
+
         _process = await Process.start(
           mainExePath,
           [],
           workingDirectory: workingDir,
         );
 
-        _process!.stdout.listen(
-          (data) =>
-              debugPrint('✅ Win Service: ${String.fromCharCodes(data).trim()}'),
-        );
-        _process!.stderr.listen(
-          (data) => debugPrint(
-            '❌ Win Service Error: ${String.fromCharCodes(data).trim()}',
-          ),
-        );
-        _process!.exitCode.then(
-          (code) => debugPrint('ℹ️ Win Service stopped with code: $code'),
-        );
+        // Listen to stdout and write to log file
+        _process!.stdout.listen((data) async {
+          final output = String.fromCharCodes(data).trim();
+          if (output.isNotEmpty) {
+            debugPrint('💻 Win Service: $output');
+            await logFile.writeAsString(
+              "[STDOUT] $output\n",
+              mode: FileMode.append,
+            );
+          }
+        });
+
+        // Listen to stderr and write to log file
+        _process!.stderr.listen((data) async {
+          final error = String.fromCharCodes(data).trim();
+          if (error.isNotEmpty) {
+            debugPrint('⚠️ Win Service Error: $error');
+            await logFile.writeAsString(
+              "⚠️ [STDERR] $error\n",
+              mode: FileMode.append,
+            );
+          }
+        });
+
+        // Handle process exit
+        _process!.exitCode.then((code) async {
+          debugPrint('ℹ️ Win Service stopped with code: $code');
+          await logFile.writeAsString(
+            "\n=== [${DateTime.now()}] SERVICE STOPPED (Code: $code) ===\n",
+            mode: FileMode.append,
+          );
+          _process = null;
+        });
       } catch (e) {
-        debugPrint("❌ [Windows] Critical Startup Error: $e");
+        debugPrint("❌ [Windows] Startup Error: $e");
+        final supportDir = await getApplicationSupportDirectory();
+        final logFile = File(p.join(supportDir.path, 'external_service', 'service_log.txt'));
+        await logFile.writeAsString("❌ [EXCEPTION] $e\n", mode: FileMode.append);
       }
     }
   }
 
-  /// Stop the service and cleanup
+  /// Stop the service
   static void stopWindowsService() {
     if (_process != null) {
       debugPrint("🛑 [Windows] Terminating Service...");
