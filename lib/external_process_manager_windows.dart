@@ -1,4 +1,5 @@
 import 'dart:io';
+import 'dart:convert';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 import 'package:path_provider/path_provider.dart';
@@ -7,54 +8,85 @@ import 'package:path/path.dart' as p;
 class ExternalProcessManagerWindows {
   static Process? _process;
 
-  /// Extract .exe or script from assets to Windows support directory
-  static Future<String> _extractAsset() async {
+  /// Extract the entire assets/app/ folder (including DLLs, configs, etc.)
+  /// to the application support directory on the user's machine.
+  static Future<String> _extractFullServiceFolder() async {
     final supportDir = await getApplicationSupportDirectory();
-    final targetFile = File(p.join(supportDir.path, 'rufus-4.13.exe'));
+    final serviceFolder = Directory(
+      p.join(supportDir.path, 'external_service'),
+    );
 
-    try {
-      final byteData = await rootBundle.load('assets/app/rufus-4.13.exe');
-      await targetFile.writeAsBytes(byteData.buffer.asUint8List());
-    } catch (e) {
-      debugPrint(
-        "⚠️ Windows Asset Warning: Could not find assets/app/rufus-4.13.exe",
-      );
+    // Create target folder if it doesn't exist
+    if (!await serviceFolder.exists()) {
+      await serviceFolder.create(recursive: true);
     }
 
-    return targetFile.path;
+    // Use AssetManifest to list all files in assets/app/
+    final manifestContent = await rootBundle.loadString('AssetManifest.json');
+    final Map<String, dynamic> manifestMap = json.decode(manifestContent);
+    final serviceAssets = manifestMap.keys.where(
+      (key) => key.startsWith('assets/app/'),
+    );
+
+    for (String assetPath in serviceAssets) {
+      // Calculate destination path relative to assets/app folder
+      final relativePath = p.relative(assetPath, from: 'assets/app');
+      final targetFilePath = p.join(serviceFolder.path, relativePath);
+      final targetFile = File(targetFilePath);
+
+      // Important: Ensure subfolders are created if they exist in the assets
+      await targetFile.parent.create(recursive: true);
+
+      // Load from asset and write to local disk
+      final byteData = await rootBundle.load(assetPath);
+      await targetFile.writeAsBytes(byteData.buffer.asUint8List());
+    }
+
+    // Name of the main executable file inside assets/app/
+    // Change this to match your actual EXE name (e.g., 'my_api.exe')
+    return p.join(serviceFolder.path, 'rufus-4.13.exe');
   }
 
-  /// Start service on Windows
+  /// Start the service on Windows
   static Future<void> startWindowsService() async {
     if (!kIsWeb && Platform.isWindows) {
       try {
-        final filePath = await _extractAsset();
-        final workingDir = p.dirname(filePath);
+        final mainExePath = await _extractFullServiceFolder();
+        final workingDir = p.dirname(mainExePath);
 
-        debugPrint("🚀 [Windows] Starting Service at: $filePath");
+        debugPrint(
+          "🚀 [Windows] Starting Full Service Bundle at: $mainExePath",
+        );
+
+        // Start the process using the extracted EXE and folder context
         _process = await Process.start(
-          filePath,
+          mainExePath,
           [],
           workingDirectory: workingDir,
         );
 
-        _process!.stdout.listen((data) =>
-            debugPrint('✅ Win Log: ${String.fromCharCodes(data).trim()}'));
-        _process!.stderr.listen((data) =>
-            debugPrint('❌ Win Error: ${String.fromCharCodes(data).trim()}'));
+        _process!.stdout.listen(
+          (data) =>
+              debugPrint('✅ Win Service: ${String.fromCharCodes(data).trim()}'),
+        );
+        _process!.stderr.listen(
+          (data) => debugPrint(
+            '❌ Win Service Error: ${String.fromCharCodes(data).trim()}',
+          ),
+        );
         _process!.exitCode.then(
-            (code) => debugPrint('ℹ️ Win Service stopped with exit code: $code'));
-
+          (code) => debugPrint('ℹ️ Win Service stopped with code: $code'),
+        );
       } catch (e) {
-        debugPrint("❌ [Windows] Startup Error: $e");
+        debugPrint("❌ [Windows] Critical Startup Error: $e");
       }
     }
   }
 
-  /// Stop service when application closes
+  /// Stop the service and cleanup
   static void stopWindowsService() {
     if (_process != null) {
-      debugPrint("🛑 [Windows] Stopping Service...");
+      debugPrint("🛑 [Windows] Terminating Service...");
       _process!.kill();
       _process = null;
     }
