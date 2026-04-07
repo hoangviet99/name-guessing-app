@@ -2,26 +2,26 @@ name: Build Windows Application
 
 on:
   push:
-    branches: [ release/windows ]
+    branches: [release/windows]
 
 jobs:
   build:
     # Build cho Windows bắt buộc phải chạy trên runner Windows
     runs-on: windows-latest
-    
+
     steps:
       - uses: actions/checkout@v4
 
       - name: Setup Java
         uses: actions/setup-java@v4
         with:
-          distribution: 'zulu'
-          java-version: '17'
+          distribution: "zulu"
+          java-version: "17"
 
       - name: Setup Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: 'any'
+          flutter-version: "any"
 
       - name: Install dependencies
         run: flutter pub get
@@ -35,4 +35,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: windows-release-bundle
-          path: build/windows/x64/release/bundle/
+          path: build/windows/x64/runner/Release/

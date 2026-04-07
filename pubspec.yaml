@@ -21,4 +21,4 @@ flutter:
   uses-material-design: true
   assets:
     - assets/scripts/mock-api-service.sh
-    - assets/app/rufus-4.13.exe
+    - assets/app/
