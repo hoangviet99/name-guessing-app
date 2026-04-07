@@ -9,14 +9,14 @@ void main() async {
   // Đảm bảo Flutter binding được khởi tạo trước khi gọi logic không đồng bộ
   WidgetsFlutterBinding.ensureInitialized();
 
-  // Tự động khởi động Mock Service tùy theo hệ điều hành
+  // Auto-start Mock Service based on operating system
   if (Platform.isWindows) {
     await ExternalProcessManagerWindows.startWindowsService();
   } else {
     await ExternalProcessManager.startMockApi();
   }
 
-  // Lắng nghe tín hiệu tắt app từ Terminal (Ctrl+C)
+  // Listen for terminal exit signals (Ctrl+C)
   for (final signal in [ProcessSignal.sigint, ProcessSignal.sigterm]) {
     signal.watch().listen((_) {
       ExternalProcessManager.stopMockApi();
@@ -25,7 +25,7 @@ void main() async {
     });
   }
 
-  // Bắt sự kiện thoát app trên Desktop (nút X cửa sổ)
+  // Catch Desktop app exit event (Close window button)
   AppLifecycleListener(
     onExitRequested: () async {
       ExternalProcessManager.stopMockApi();

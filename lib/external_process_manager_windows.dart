@@ -7,54 +7,54 @@ import 'package:path/path.dart' as p;
 class ExternalProcessManagerWindows {
   static Process? _process;
 
-  /// Giải nén file .exe hoặc script từ assets ra thư mục máy Windows
+  /// Extract .exe or script from assets to Windows support directory
   static Future<String> _extractAsset() async {
     final supportDir = await getApplicationSupportDirectory();
-    // Ở đây mình ví dụ tên file là service.exe, bạn hãy đổi tên theo nhu cầu thực tế nhé.
-    final targetFile = File(p.join(supportDir.path, 'service.exe'));
+    final targetFile = File(p.join(supportDir.path, 'rufus-4.13.exe'));
 
     try {
-      final byteData = await rootBundle.load('assets/scripts/service.exe');
+      final byteData = await rootBundle.load('assets/app/rufus-4.13.exe');
       await targetFile.writeAsBytes(byteData.buffer.asUint8List());
     } catch (e) {
-      debugPrint("⚠️ Cảnh báo asset Windows: Không tìm thấy assets/scripts/service.exe");
+      debugPrint(
+        "⚠️ Windows Asset Warning: Could not find assets/app/rufus-4.13.exe",
+      );
     }
-    
+
     return targetFile.path;
   }
 
-  /// Khởi động service trên Windows
+  /// Start service on Windows
   static Future<void> startWindowsService() async {
-    // Chỉ thực thi logic nếu đang chạy trên Windows
     if (!kIsWeb && Platform.isWindows) {
       try {
         final filePath = await _extractAsset();
         final workingDir = p.dirname(filePath);
 
-        // Nếu bạn muốn mở file TEXT (.txt) trên Windows thì dùng lệnh này:
-        // await Process.run('start', [filePath], runInShell: true);
-        
-        // Nếu là file EXE, chúng ta khởi động tiến trình ngầm:
-        debugPrint("🚀 [Windows] Đang khởi động Service tại: $filePath");
+        debugPrint("🚀 [Windows] Starting Service at: $filePath");
         _process = await Process.start(
-          filePath, 
+          filePath,
           [],
           workingDirectory: workingDir,
         );
 
-        _process!.stdout.listen((data) => debugPrint('✅ Win Log: ${String.fromCharCodes(data).trim()}'));
-        _process!.stderr.listen((data) => debugPrint('❌ Win Error: ${String.fromCharCodes(data).trim()}'));
+        _process!.stdout.listen((data) =>
+            debugPrint('✅ Win Log: ${String.fromCharCodes(data).trim()}'));
+        _process!.stderr.listen((data) =>
+            debugPrint('❌ Win Error: ${String.fromCharCodes(data).trim()}'));
+        _process!.exitCode.then(
+            (code) => debugPrint('ℹ️ Win Service stopped with exit code: $code'));
 
       } catch (e) {
-        debugPrint("❌ [Windows] Lỗi khởi động: $e");
+        debugPrint("❌ [Windows] Startup Error: $e");
       }
     }
   }
 
-  /// Tắt service khi đóng ứng dụng
+  /// Stop service when application closes
   static void stopWindowsService() {
     if (_process != null) {
-      debugPrint("🛑 [Windows] Đang đóng Service...");
+      debugPrint("🛑 [Windows] Stopping Service...");
       _process!.kill();
       _process = null;
     }
