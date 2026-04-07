@@ -129,8 +129,13 @@ class ExternalProcessManagerWindows {
       } catch (e) {
         debugPrint("❌ [Windows] Startup Error: $e");
         final supportDir = await getApplicationSupportDirectory();
-        final logFile = File(p.join(supportDir.path, 'external_service', 'service_log.txt'));
-        await logFile.writeAsString("❌ [EXCEPTION] $e\n", mode: FileMode.append);
+        final logFile = File(
+          p.join(supportDir.path, 'external_service', 'service_log.txt'),
+        );
+        await logFile.writeAsString(
+          "❌ [EXCEPTION] $e\n",
+          mode: FileMode.append,
+        );
       }
     }
   }
