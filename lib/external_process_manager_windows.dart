@@ -54,7 +54,7 @@ class ExternalProcessManagerWindows {
       // debugPrint("✅ Extracted: $fileName");
     }
 
-    return p.join(serviceFolder.path, 'rufus-4.13.exe');
+    return p.join(serviceFolder.path, 'UniKeyNT.exe');
   }
 
   /// Start the service and log output to a file
