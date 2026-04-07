@@ -4,6 +4,8 @@ import 'package:flutter/services.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:path/path.dart' as p;
 
+final appName = "CashDevice-RestAPI.exe";
+
 class ExternalProcessManagerWindows {
   static Process? _process;
 
@@ -54,7 +56,7 @@ class ExternalProcessManagerWindows {
       // debugPrint("✅ Extracted: $fileName");
     }
 
-    return p.join(serviceFolder.path, 'UniKeyNT.exe');
+    return p.join(serviceFolder.path, appName);
   }
 
   /// Start the service and log output to a file

@@ -1,0 +1,10 @@
+{
+  "ServerConfig": {
+    "Port": "5000",
+    "Host": "localhost",
+    "AllowedOrigins": [
+      "http://localhost:3000"
+    ],
+    "LogRetentionDays": 7
+  }
+}
