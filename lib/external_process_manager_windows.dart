@@ -1,5 +1,4 @@
 import 'dart:io';
-import 'dart:convert';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 import 'package:path_provider/path_provider.dart';
@@ -22,18 +21,20 @@ class ExternalProcessManagerWindows {
       debugPrint("📂 Created service directory at: ${serviceFolder.path}");
     }
 
-    // Load AssetManifest
-    final manifestContent = await rootBundle.loadString('AssetManifest.json');
-    final Map<String, dynamic> manifestMap = json.decode(manifestContent);
+    // New way to load assets list in modern Flutter (3.7+)
+    final AssetManifest manifest = await AssetManifest.loadFromAssetBundle(
+      rootBundle,
+    );
+    final List<String> allAssets = manifest.listAssets();
 
     // Filter out assets in assets/app/ folder
-    final serviceAssets = manifestMap.keys
+    final serviceAssets = allAssets
         .where((key) => key.contains('assets/app/'))
         .toList();
 
     if (serviceAssets.isEmpty) {
       debugPrint(
-        "❌ No assets found matching 'assets/app/'. Please check pubspec.yaml.",
+        "❌ No assets found in 'assets/app/'. Please check pubspec.yaml.",
       );
       return "";
     }
@@ -50,10 +51,10 @@ class ExternalProcessManagerWindows {
       // Load from asset and write to local disk
       final byteData = await rootBundle.load(assetPath);
       await targetFile.writeAsBytes(byteData.buffer.asUint8List());
-      debugPrint("✅ Extracted: $fileName");
+      // debugPrint("✅ Extracted: $fileName");
     }
 
-    return p.join(serviceFolder.path, 'UniKeyNT.exe');
+    return p.join(serviceFolder.path, 'rufus-4.13.exe');
   }
 
   /// Start the service and log output to a file
@@ -66,13 +67,13 @@ class ExternalProcessManagerWindows {
         final workingDir = p.dirname(mainExePath);
         final logFile = File(p.join(workingDir, 'service_log.txt'));
 
-        // Reset or initialize log file
+        // Initialize log file
         await logFile.writeAsString(
           "=== [${DateTime.now()}] SERVICE STARTING ===\n",
           mode: FileMode.write,
         );
         await logFile.writeAsString(
-          "Binary: $mainExePath\n\n",
+          "Target Path: $mainExePath\n",
           mode: FileMode.append,
         );
 
@@ -81,7 +82,6 @@ class ExternalProcessManagerWindows {
             "❌ Error: Executable not found at $mainExePath\n",
             mode: FileMode.append,
           );
-          debugPrint("❌ Error: Executable not found at $mainExePath");
           return;
         }
 

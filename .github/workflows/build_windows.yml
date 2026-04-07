@@ -1,5 +1,8 @@
 name: Build Windows Application
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 on:
   push:
     branches: [release/windows]
@@ -27,11 +30,9 @@ jobs:
         run: flutter pub get
 
       - name: Build Windows Application
-        # Build bản release (.exe) cho Windows
         run: flutter build windows --release
 
       - name: Archive Windows Release
-        # Nén toàn bộ thư mục bundle thành file .zip để tải về dễ dàng
         uses: actions/upload-artifact@v4
         with:
           name: windows-release-bundle
