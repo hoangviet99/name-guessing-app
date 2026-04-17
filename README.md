@@ -2,120 +2,151 @@
 
 ## Summary
 
-Văn bản này là Nghị định 144/2021/NĐ-CP do Chính phủ Việt Nam ban hành nhằm quy định chi tiết về việc xử phạt vi phạm hành chính trong nhiều lĩnh vực then chốt. Nội dung tập trung vào việc duy trì an ninh, trật tự xã hội, đồng thời thiết lập các chế tài nghiêm khắc đối với các hành vi sai phạm về phòng cháy chữa cháy và cứu nạn cứu hộ. Tài liệu xác định rõ các hình thức xử phạt như phạt tiền và tịch thu tang vật, bên cạnh các biện pháp khắc phục hậu quả cụ thể cho từng trường hợp. Ngoài ra, nghị định cũng quy định mức phạt đối với các vi phạm liên quan đến quản lý cư trú, sử dụng chứng minh nhân dân và quản lý vũ khí, vật liệu nổ. Đây là cơ sở pháp lý quan trọng giúp các cơ quan chức năng thực thi pháp luật và đảm bảo an toàn cho cộng đồng.
-
 ## Hidden Summary
 
-Văn bản này là **Nghị định 144/2021/NĐ-CP** do Chính phủ Việt Nam ban hành nhằm quy định chi tiết về việc **xử phạt vi phạm hành chính** trong nhiều lĩnh vực then chốt. Nội dung tập trung vào việc duy trì **an ninh, trật tự xã hội**, đồng thời thiết lập các chế tài nghiêm khắc đối với các hành vi sai phạm về **phòng cháy chữa cháy** và cứu nạn cứu hộ. Tài liệu xác định rõ các hình thức xử phạt như **phạt tiền và tịch thu tang vật**, bên cạnh các biện pháp khắc phục hậu quả cụ thể cho từng trường hợp. Ngoài ra, nghị định cũng quy định mức phạt đối với các vi phạm liên quan đến **quản lý cư trú**, sử dụng chứng minh nhân dân và quản lý vũ khí, vật liệu nổ. Đây là cơ sở pháp lý quan trọng giúp các cơ quan chức năng **thực thi pháp luật** và đảm bảo an toàn cho cộng đồng.
+Dựa trên các văn bản luật bạn cung cấp (Nghị định 100/2019/NĐ-CP và Thông tư 24/2023/TT-BCA), thời hạn để làm thủ tục và mức phạt đối với xe gắn máy khi mua bán cũ mà không sang tên đổi chủ được quy định như sau:
+
+### 1. Thời hạn thực hiện thủ tục
+
+Theo Thông tư 24/2023/TT-BCA, thời hạn để hoàn thành các thủ tục sau khi mua bán xe gắn máy là **30 ngày**, cụ thể:
+
+- **Đối với người bán (chủ xe cũ):** Trong thời hạn **30 ngày**, kể từ ngày làm giấy tờ chuyển quyền sở hữu xe, chủ xe phải làm thủ tục thu hồi tại cơ quan đăng ký xe. Chủ xe phải giữ lại chứng nhận đăng ký xe, biển số xe (không giao cho người mua) và nộp cho cơ quan đăng ký xe để làm thủ tục thu hồi.
+- **Đối với người mua (chủ xe mới):** Trong thời hạn **30 ngày**, kể từ ngày làm giấy tờ chuyển quyền sở hữu xe, chủ xe phải thực hiện thủ tục đăng ký sang tên xe tại cơ quan đăng ký xe theo quy định.
+
+### 2. Mức xử phạt khi quá thời hạn
+
+Nếu quá thời hạn 30 ngày nêu trên mà không thực hiện thủ tục sang tên đổi chủ, người mua (chủ xe mới) sẽ bị xử phạt hành chính theo quy định tại Nghị định 100/2019/NĐ-CP (được giữ nguyên mức phạt tại điểm này theo các nội dung sửa đổi của Nghị định 123/2021/NĐ-CP).
+
+**Mức phạt đối với hành vi "Không làm thủ tục đăng ký sang tên xe" khi mua xe gắn máy là:**
+
+- **Đối với cá nhân:** Phạt tiền từ **400.000 đồng đến 600.000 đồng**.
+- **Đối với tổ chức:** Phạt tiền từ **800.000 đồng đến 1.200.000 đồng**.
+
+### Một số lưu ý quan trọng khác:
+
+- **Về biển số:** Hiện nay theo quy định mới, biển số xe được cấp và quản lý theo **mã định danh của chủ xe**. Khi chuyển quyền sở hữu xe, biển số xe sẽ được cơ quan đăng ký xe thu hồi và giữ lại cho chủ xe cũ trong thời hạn 05 năm để cấp lại khi chủ xe đó đăng ký xe khác.
+- **Trách nhiệm pháp lý:** Trường hợp chủ xe không làm thủ tục thu hồi sau khi chuyển quyền sở hữu xe thì phải **chịu trách nhiệm trước pháp luật về các hành vi vi phạm liên quan đến xe đó** cho đến khi làm thủ tục thu hồi.
+- **Biện pháp khắc phục hậu quả:** Ngoài việc bị phạt tiền, người vi phạm còn bị buộc phải làm thủ tục đăng ký sang tên theo quy định.
 
 ## Chat
 
 ### Q1
 
-Theo 2 văn bản này thì người chủ trọ và người thuê trọ phải có trách nhiệm như thế nào nếu mình ở trọ được hơn 1 năm rồi?
+Theo 2 văn bản luật này thì với xe gắn máy khi mua bán cũ xong. Mà không đi làm thủ tục biển số cũ để bấm biển mới, không sang tên đổi chủ thì sau bao lâu sẽ bị phạt. Và mức phạt là bao nhiêu?
 
 ### A1
 
-Dựa trên các nguồn tài liệu được cung cấp, đặc biệt là **Nghị định 144/2021/NĐ-CP**, trách nhiệm của người chủ trọ và người thuê trọ được quy định thông qua các mức xử phạt vi phạm hành chính. Mặc dù văn bản "Luật số 68-2020-QH14" không hiển thị nội dung chi tiết trong nguồn trích dẫn, Nghị định 144 đã nêu rõ các nghĩa vụ cần thực hiện để tránh bị xử phạt như sau:
+Dựa trên các văn bản luật bạn cung cấp (Nghị định 100/2019/NĐ-CP và Thông tư 24/2023/TT-BCA), thời hạn để làm thủ tục và mức phạt đối với xe gắn máy khi mua bán cũ mà không sang tên đổi chủ được quy định như sau:
 
-### 1. Trách nhiệm của Người chủ trọ
+### 1. Thời hạn thực hiện thủ tục
 
-Người chủ trọ (thường là chủ cơ sở cho thuê lưu trú) có các trách nhiệm chính sau:
+Theo Thông tư 24/2023/TT-BCA, thời hạn để hoàn thành các thủ tục sau khi mua bán xe gắn máy là **30 ngày**, cụ thể:
 
-- **Thông báo lưu trú:** Chủ trọ phải thực hiện thông báo việc lưu trú của người thuê với cơ quan công an. Nếu không thực hiện, chủ trọ sẽ bị phạt tiền tùy theo số lượng người thuê không được thông báo (từ 1 đến 3 người phạt từ 1-2 triệu đồng; từ 4 đến 8 người phạt từ 2-4 triệu đồng; từ 9 người trở lên phạt từ 4-6 triệu đồng),.
-- **Quản lý cư trú hợp pháp:** Không được cho người khác đăng ký cư trú vào chỗ ở của mình để trục lợi.
-- **Đảm bảo an toàn phòng cháy chữa cháy (PCCC):** Chủ trọ phải đảm bảo các điều kiện an toàn về PCCC đối với hộ gia đình và cơ sở kinh doanh lưu trú.
-- **Kiểm tra giấy tờ tùy thân:** Có trách nhiệm kiểm tra, lưu trữ bản sao giấy tờ tùy thân của người đến thuê trọ.
+- **Đối với người bán (chủ xe cũ):** Trong thời hạn **30 ngày**, kể từ ngày làm giấy tờ chuyển quyền sở hữu xe, chủ xe phải làm thủ tục thu hồi tại cơ quan đăng ký xe. Chủ xe phải giữ lại chứng nhận đăng ký xe, biển số xe (không giao cho người mua) và nộp cho cơ quan đăng ký xe để làm thủ tục thu hồi.
+- **Đối với người mua (chủ xe mới):** Trong thời hạn **30 ngày**, kể từ ngày làm giấy tờ chuyển quyền sở hữu xe, chủ xe phải thực hiện thủ tục đăng ký sang tên xe tại cơ quan đăng ký xe theo quy định.
 
-### 2. Trách nhiệm của Người thuê trọ
+### 2. Mức xử phạt khi quá thời hạn
 
-Người thuê trọ phải tuân thủ các quy định về cư trú và trật tự công cộng:
+Nếu quá thời hạn 30 ngày nêu trên mà không thực hiện thủ tục sang tên đổi chủ, người mua (chủ xe mới) sẽ bị xử phạt hành chính theo quy định tại Nghị định 100/2019/NĐ-CP (được giữ nguyên mức phạt tại điểm này theo các nội dung sửa đổi của Nghị định 123/2021/NĐ-CP).
 
-- **Đăng ký tạm trú:** Phải thực hiện đúng quy định về đăng ký tạm trú khi chuyển đến ở.
-- **Cung cấp thông tin chính xác:** Phải cung cấp thông tin, giấy tờ, tài liệu chính xác về cư trú cho cơ quan có thẩm quyền và chủ trọ.
-- **Giữ gìn trật tự, an ninh chung:**
-  - Không gây tiếng động lớn, làm ồn ào, huyên náo tại khu dân cư trong khoảng thời gian từ **22 giờ ngày hôm trước đến 06 giờ sáng ngày hôm sau**.
-  - Không vứt rác hoặc bỏ bất cứ vật gì khác lên tường rào và khu vực liền kề.
-  - Không chăn, thả gia súc, gia cầm trong chung cư.
-- **Bảo vệ tài sản:** Không được có hành vi hủy hoại hoặc cố ý làm hư hỏng tài sản của cá nhân, tổ chức khác.
+**Mức phạt đối với hành vi "Không làm thủ tục đăng ký sang tên xe" khi mua xe gắn máy là:**
 
-### 3. Về thời hạn "ở trọ được hơn 1 năm"
+- **Đối với cá nhân:** Phạt tiền từ **400.000 đồng đến 600.000 đồng**.
+- **Đối với tổ chức:** Phạt tiền từ **800.000 đồng đến 1.200.000 đồng**.
 
-Theo các nguồn tài liệu này, mốc thời gian 1 năm có ý nghĩa quan trọng về mặt pháp lý:
+### Một số lưu ý quan trọng khác:
 
-- **Thời hiệu xử phạt:** Thời hiệu xử phạt vi phạm hành chính trong lĩnh vực an ninh, trật tự, an toàn xã hội và cư trú là **01 năm**. Nếu một hành vi vi phạm đã kết thúc quá 1 năm mà không bị phát hiện thì có thể không còn bị xử phạt (trừ trường hợp hành vi vẫn đang tiếp diễn).
-- **Hiệu lực của đăng ký:** Người thuê trọ cần lưu ý kiểm tra lại thời hạn đăng ký tạm trú của mình. Mặc dù Nghị định 144 không nêu rõ thời hạn đăng ký tạm trú tối đa (thông thường được quy định trong Luật Cư trú), nhưng người ở trọ lâu dài (trên 1 năm) cần đảm bảo việc đăng ký tạm trú vẫn còn hiệu lực và được gia hạn đúng quy định để tránh bị phạt về việc "không thực hiện đúng quy định về đăng ký tạm trú".
-
-Tóm lại, cả chủ và khách đều phải duy trì việc khai báo cư trú hợp lệ và đảm bảo nếp sống văn minh, an toàn PCCC trong suốt quá trình ở trọ,,.
+- **Về biển số:** Hiện nay theo quy định mới, biển số xe được cấp và quản lý theo **mã định danh của chủ xe**. Khi chuyển quyền sở hữu xe, biển số xe sẽ được cơ quan đăng ký xe thu hồi và giữ lại cho chủ xe cũ trong thời hạn 05 năm để cấp lại khi chủ xe đó đăng ký xe khác.
+- **Trách nhiệm pháp lý:** Trường hợp chủ xe không làm thủ tục thu hồi sau khi chuyển quyền sở hữu xe thì phải **chịu trách nhiệm trước pháp luật về các hành vi vi phạm liên quan đến xe đó** cho đến khi làm thủ tục thu hồi.
+- **Biện pháp khắc phục hậu quả:** Ngoài việc bị phạt tiền, người vi phạm còn bị buộc phải làm thủ tục đăng ký sang tên theo quy định.
 
 ---
 
 ### Q2
 
-Về việc đăng ký tạm trú. Chủ trọ cần phải có trách nhiệm gì về đăng ký tạm trú cho người thuê?
+Ủa nếu như chủ cũ làm giấy ủy quyền luôn cho người mua xe thì sao? Ủy quyền cho phép người mua xe được đi làm thủ tục rút biển cũ. Trong trường hợp này nếu rút biển cũ quá 30 ngày từ ngày mua thì sẽ xử lý như thế nào?<br>
+Việc người mua bị phạt do không sang tên xe thì được tính từ ngày mua bán đến ngày rút biển cũ. Hay tính từ ngày mua bán đến ngày bấm biển mới?
 
 ### A2
 
-Dựa trên các nguồn tài liệu được cung cấp, đặc biệt là **Nghị định 144/2021/NĐ-CP**, người chủ trọ (chủ cơ sở cho thuê lưu trú) có những trách nhiệm cụ thể liên quan đến việc đăng ký và quản lý cư trú cho người thuê như sau:
+Dựa trên các văn bản luật bạn cung cấp (Thông tư 24/2023/TT-BCA và Nghị định 100/2019/NĐ-CP được sửa đổi bởi Nghị định 123/2021/NĐ-CP), các thắc mắc của bạn về việc ủy quyền và thời hạn xử phạt được giải đáp như sau:
 
-### 1. Trách nhiệm thông báo lưu trú
+### 1. Việc ủy quyền làm thủ tục rút biển số cũ
 
-Đây là trách nhiệm quan trọng nhất của chủ trọ. Chủ trọ phải thực hiện việc thông báo lưu trú với cơ quan Công an khi có người đến thuê trọ. Nếu không thực hiện, chủ trọ sẽ bị phạt tiền dựa trên số lượng người không được thông báo:
+Theo quy định, chủ xe có thể **ủy quyền** cho người mua xe để thay mặt mình giải quyết các thủ tục đăng ký xe. Tuy nhiên, việc ủy quyền này không làm thay đổi thời hạn pháp lý mà các bên phải tuân thủ:
 
-- **Từ 01 đến 03 người:** Phạt từ **1.000.000 đồng đến 2.000.000 đồng**.
-- **Từ 04 đến 08 người:** Phạt từ **2.000.000 đồng đến 4.000.000 đồng**.
-- **Từ 09 người trở lên:** Phạt từ **4.000.000 đồng đến 6.000.000 đồng**.
+- **Trách nhiệm của chủ cũ (thông qua người được ủy quyền):** Trong thời hạn **30 ngày**, kể từ ngày làm giấy tờ chuyển quyền sở hữu xe, chủ xe phải làm thủ tục thu hồi chứng nhận đăng ký và biển số xe.
+- **Hậu quả khi rút biển cũ quá 30 ngày:** Nếu người mua (được ủy quyền) đi làm thủ tục thu hồi biển số muộn hơn 30 ngày kể từ ngày mua bán (ngày ký hợp đồng), cơ quan đăng ký xe sẽ **ra quyết định xử phạt vi phạm hành chính** đối với hành vi không làm thủ tục đăng ký sang tên xe trước khi giải quyết hồ sơ thu hồi.
 
-### 2. Trách nhiệm kiểm tra và lưu trữ thông tin
+### 2. Cách tính thời điểm để xử phạt
 
-Chủ trọ có nghĩa vụ quản lý thông tin khách thuê một cách chặt chẽ:
+Việc xác định người mua có bị phạt hay không và tính từ thời điểm nào được quy định dựa trên **ngày ghi trên giấy tờ chuyển quyền sở hữu xe** (hợp đồng mua bán, tặng cho...):
 
-- Phải **kiểm tra và lưu trữ bản sao giấy tờ tùy thân** (CMND, CCCD hoặc Hộ chiếu) của người đến thuê trọ.
-- Phải thực hiện đầy đủ quy trình kiểm tra, lưu trữ thông tin của người đến lưu trú. Nếu vi phạm, chủ trọ có thể bị phạt tiền từ **2.000.000 đồng đến 5.000.000 đồng**.
+- **Thời điểm bắt đầu vi phạm:** Hành vi vi phạm bắt đầu được xác định từ **ngày thứ 31** kể từ ngày làm giấy tờ chuyển quyền sở hữu xe mà chưa thực hiện thủ tục.
+- **Căn cứ tính phạt:** Phạt do "không sang tên" được tính dựa trên mốc thời gian từ **ngày ký giấy tờ mua bán đến ngày bạn nộp hồ sơ thực hiện thủ tục đầu tiên** tại cơ quan công an (trong trường hợp này là thủ tục thu hồi/rút biển cũ).
+- **Lưu ý về "bấm biển mới":** Thông tư 24 tách biệt hai bước là **Thu hồi** và **Đăng ký sang tên**. Cả hai việc này đều phải thực hiện trong thời hạn 30 ngày kể từ ngày mua bán. Vì vậy, chỉ cần bạn đi làm bước đầu tiên (rút biển cũ) mà đã quá 30 ngày kể từ ngày mua thì đã đủ căn cứ để xử phạt hành chính theo Nghị định 100, không cần đợi đến lúc bấm biển mới.
 
-### 3. Trách nhiệm phối hợp với cơ quan chức năng
-
-- Chủ trọ không được cản trở và phải chấp hành việc **kiểm tra tạm trú, kiểm tra lưu trú** theo yêu cầu của cơ quan có thẩm quyền. Hành vi cản trở có thể bị phạt từ **4.000.000 đồng đến 6.000.000 đồng**.
-
-### 4. Các hành vi bị nghiêm cấm đối với chủ trọ
-
-Để đảm bảo việc đăng ký cư trú đúng quy định, chủ trọ không được thực hiện các hành vi sau:
-
-- **Không cung cấp thông tin, giấy tờ sai sự thật** về cư trú để người thuê được đăng ký tạm trú trái quy định.
-- **Không cho người khác đăng ký cư trú** vào chỗ ở của mình để trục lợi.
-- Không được tẩy xóa, sửa chữa hoặc làm sai lệch nội dung trong sổ tạm trú (nếu còn sử dụng giấy tờ truyền thống trong giai đoạn chuyển tiếp).
-
-**Tóm lại**, trách nhiệm của chủ trọ không chỉ dừng lại ở việc cho thuê chỗ ở mà còn phải đảm bảo tính pháp lý về cư trú cho người thuê thông qua việc kiểm tra giấy tờ tùy thân và chủ động khai báo với cơ quan chức năng,,.
+**Tóm lại:** Việc ủy quyền hoàn toàn hợp lệ nhưng không giúp kéo dài thời hạn 30 ngày. Nếu bạn đi rút biển cũ vào ngày thứ 31 trở đi kể từ ngày ký hợp đồng mua bán, bạn sẽ bị phạt mức **400.000 - 600.000 đồng** (đối với cá nhân) ngay tại bước rút biển cũ.
 
 ---
 
 ### Q3
 
-Mình ở trọ trên 1 năm rồi. Mình yêu cầu chủ trọ đăng ký tạm trú cho mình nhưng bị từ chối. Cái này có phải vi phạm không? Lưu ý là đăng ký tạm trú chứ không phải đăng ký lưu trú hay nơi ở hiện tại đâu nhé.
+Có một trường hợp như thế này. Ví dụ người bán thường trú tại quận 12 HCM. Đăng ký xe cũng ở q12 HCM. Người mua thường trú tại Bình Định và chưa có tạm trú tại HCM.<br>
+Trên giấy tờ mua bán công chứ cũng có ghi thông tin cư trú của người mua là thường trú tại Bình Định, nơi ở hiện tại là ở quận 5 HCM. (không có tạm trú)<br>
+Người mua có thể thực hiện như sau không: Đầu tiên đi rút biển cũ tại công an q12 HCM. Sau đó mới đi đăng ký tạm trú tại q5 HCM. Sau khi đăng ký tạm trú thành công thì mới đi bấm biển mới tại chính công an q5 HCM.<br>
+Liệu có thể làm như trên không?
 
 ### A3
 
-Việc chủ trọ từ chối đăng ký tạm trú cho bạn khi bạn đã ở trên 1 năm là **hành vi vi phạm quy định pháp luật về cư trú**. Dựa trên các nguồn tài liệu bạn cung cấp, cụ thể là **Nghị định 144/2021/NĐ-CP**, hành vi này có thể bị xử phạt như sau:
+Dựa trên các quy định tại Thông tư 24/2023/TT-BCA và Nghị định 100/2019/NĐ-CP, bạn **hoàn toàn có thể thực hiện theo phương án đã đề ra**. Tuy nhiên, bạn cần lưu ý các điều kiện pháp lý và mốc thời gian quan trọng để tránh bị xử phạt.
 
-### 1. Vi phạm về trách nhiệm đăng ký cư trú
+Cụ thể, lộ trình thực hiện của bạn được phân tích như sau:
 
-Theo **Điều 9, Khoản 1, Điểm a**, hành vi **"không thực hiện đúng quy định về đăng ký tạm trú"** sẽ bị phạt tiền từ **500.000 đồng đến 1.000.000 đồng**.
+### 1. Thủ tục rút biển cũ (Thu hồi) tại Công an Quận 12
 
-- Mặc dù người thuê trọ có trách nhiệm đi đăng ký, nhưng chủ trọ có nghĩa vụ cung cấp các giấy tờ liên quan (như hợp đồng thuê nhà, giấy tờ chứng minh chỗ ở hợp pháp) để bạn hoàn thiện hồ sơ. Việc từ chối hỗ trợ này dẫn đến việc không thể thực hiện đúng quy định về đăng ký tạm trú.
+- **Địa điểm thực hiện:** Theo quy định, thủ tục thu hồi chứng nhận đăng ký và biển số xe phải được thực hiện tại cơ quan đang quản lý hồ sơ xe đó. Vì xe đang đăng ký tại Quận 12 nên việc bạn đến Công an Quận 12 để làm thủ tục là đúng quy định.
+- **Điều kiện:** Bạn cần có văn bản ủy quyền từ chủ xe cũ (người bán) để thay mặt họ thực hiện thủ tục này.
 
-### 2. Hành vi cản trở quyền tự do cư trú
+### 2. Đăng ký tạm trú tại Quận 5
 
-Nghiêm trọng hơn, hành vi từ chối hoặc gây khó khăn cho người thuê trọ trong việc đăng ký tạm trú có thể bị coi là cản trở quyền cư trú. Theo **Điều 9, Khoản 3, Điểm c**, hành vi **"cản trở công dân thực hiện quyền tự do cư trú"** sẽ bị phạt tiền từ **2.000.000 đồng đến 4.000.000 đồng**.
+- **Cơ sở pháp lý:** Thông tư 24/2023/TT-BCA quy định chủ xe là cá nhân có thể đăng ký xe tại nơi mình **đăng ký thường trú hoặc tạm trú**.
+- **Tại sao phải làm bước này:** Mặc dù trên hợp đồng mua bán có ghi địa chỉ ở Quận 5, nhưng nếu bạn chưa thực hiện thủ tục đăng ký tạm trú chính thức với cơ quan Công an phường, bạn sẽ không đủ điều kiện để bấm biển mới tại đây. Việc đăng ký tạm trú thành công là cơ sở pháp lý để Công an Quận 5 tiếp nhận hồ sơ đăng ký xe của bạn.
 
-### 3. Phân biệt với "Thông báo lưu trú"
+### 3. Bấm biển mới tại Công an Quận 5
 
-Bạn đã lưu ý đúng rằng đây là **đăng ký tạm trú** (có thời hạn lâu dài, thường là từ 30 ngày trở lên), khác hoàn toàn với **thông báo lưu trú** (dành cho khách ở ngắn hạn dưới 30 ngày).
+- Sau khi có thông tin cư trú hợp pháp (tạm trú) tại Quận 5, bạn có quyền thực hiện thủ tục đăng ký sang tên xe tại Công an Quận 5.
 
-- Đối với thông báo lưu trú, nếu chủ trọ không thực hiện sẽ bị phạt theo số lượng người (từ 1-6 triệu đồng).
-- Nhưng với trường hợp của bạn (ở trên 1 năm), bạn thuộc đối tượng phải đăng ký tạm trú. Nếu chủ trọ không phối hợp, họ đang vi phạm các quy định về quản lý cư trú tại chỗ ở của mình.
+### ⚠️ Lưu ý cực kỳ quan trọng về thời hạn và xử phạt
 
-### 4. Trách nhiệm kiểm tra của cơ quan chức năng
+Mặc dù quy trình trên là đúng, bạn phải đặc biệt chú ý đến **thời hạn 30 ngày**:
 
-Nếu chủ trọ không chấp hành việc kiểm tra tạm trú hoặc không cung cấp thông tin cư trú của bạn cho cơ quan công an khi được yêu cầu, họ có thể bị phạt từ **4.000.000 đồng đến 6.000.000 đồng** theo **Điều 9, Khoản 4, Điểm e**.
+- **Mốc thời gian:** Thời hạn 30 ngày được tính từ **ngày ký giấy tờ chuyển quyền sở hữu xe** (ngày công chứng hợp đồng mua bán).
+- **Rủi ro:** Nếu việc đăng ký tạm trú tại Quận 5 kéo dài dẫn đến việc bạn nộp hồ sơ đăng ký sang tên xe muộn hơn 30 ngày kể từ ngày mua, bạn sẽ bị xử phạt về hành vi "Không làm thủ tục đăng ký sang tên xe".
+- **Mức phạt:** Như đã thông tin, mức phạt cho cá nhân là từ **400.000 đồng đến 600.000 đồng**.
 
-**Tóm lại:** Việc chủ trọ từ chối đăng ký tạm trú cho bạn là vi phạm pháp luật. Bạn có quyền yêu cầu chủ trọ thực hiện nghĩa vụ này để đảm bảo quyền lợi hợp pháp của mình (như làm căn cước công dân, đăng ký xe, học tập...). Nếu họ tiếp tục từ chối, bạn có thể phản ánh sự việc với Công an xã/phường nơi đang cư trú để được can thiệp giải quyết.
+**Tóm lại:** Bạn có thể làm theo cách này, nhưng hãy đảm bảo hoàn tất cả thủ tục đăng ký tạm trú và nộp hồ sơ đăng ký xe mới trong vòng **30 ngày** kể từ ngày ký hợp đồng mua bán để không bị mất tiền phạt.
+
+---
+
+### Q4
+
+Nhưng nếu trên giấy tờ mua bán công chứng không có ghi thông tin người mua là tạm trú tại q5 HCM thì có sao không? Hay trên giấy tờ mua bán công chứng bắt buộc phải có dòng tạm trú q5 HCM đối với người mua?
+
+### A4
+
+Dựa trên các quy định tại Thông tư 24/2023/TT-BCA, việc trên giấy tờ mua bán công chứng không ghi thông tin tạm trú tại Quận 5, HCM của người mua **không gây ảnh hưởng gì** và **không bắt buộc** phải có dòng địa chỉ này.
+
+Cụ thể các lý do pháp lý như sau:
+
+- **Mục đích của giấy tờ mua bán:** Theo quy định, hợp đồng mua bán xe có công chứng là "chứng từ chuyển quyền sở hữu". Vai trò chính của nó là xác nhận việc giao dịch giữa người mua và người bán là hợp pháp tại thời điểm ký kết. Thông tin cư trú trên hợp đồng thường ghi theo thông tin trên Căn cước công dân (thường trú) của các bên tại thời điểm đó.
+- **Căn cứ xác định nơi đăng ký xe:** Việc bạn đăng ký xe ở đâu không phụ thuộc vào địa chỉ ghi trên hợp đồng mua bán, mà phụ thuộc vào **nơi cư trú hợp pháp của chủ xe** tại thời điểm làm thủ tục đăng ký xe. Thông tư 24 cho phép cá nhân được đăng ký xe tại nơi đăng ký thường trú hoặc tạm trú.
+- **Cách thức kiểm tra của cơ quan Công an:** Khi bạn nộp hồ sơ tại Công an Quận 5, cán bộ đăng ký xe sẽ kiểm tra thông tin của bạn (bao gồm nơi thường trú và tạm trú) trên **Cơ sở dữ liệu quốc gia về dân cư** thông qua mã định danh cá nhân hoặc tài khoản định danh điện tử mức độ 2, chứ không chỉ dựa vào địa chỉ ghi trên hợp đồng mua bán.
+
+**Lời khuyên cho trường hợp của bạn:**
+
+1.  Trên hợp đồng mua bán công chứng, bạn cứ để địa chỉ thường trú tại Bình Định là hoàn toàn đúng quy định.
+2.  **Quan trọng nhất:** Sau khi rút biển tại Quận 12, bạn phải hoàn tất việc **đăng ký tạm trú tại Quận 5** và đảm bảo thông tin tạm trú này đã được cập nhật lên hệ thống dân cư.
+3.  Khi thông tin tạm trú tại Quận 5 đã có trên hệ thống, bạn cầm bộ hồ sơ (bao gồm hợp đồng mua bán đã công chứng ở Bình Định) đến Công an Quận 5 để bấm biển mới. Lúc này, Công an Quận 5 sẽ đối chiếu thông tin cư trú của bạn trên hệ thống để thụ lý hồ sơ.
+
+**Lưu ý:** Hãy luôn ghi nhớ mốc thời gian **30 ngày** kể từ ngày ký hợp đồng mua bán để nộp hồ sơ đăng ký sang tên (sau khi đã có tạm trú), tránh việc bị xử phạt hành chính mức 400.000 - 600.000 đồng.
