@@ -1,33 +1,3 @@
-# Untitled
-
-## Summary
-
-## Hidden Summary
-
-Dựa trên các văn bản luật bạn cung cấp (Nghị định 100/2019/NĐ-CP và Thông tư 24/2023/TT-BCA), thời hạn để làm thủ tục và mức phạt đối với xe gắn máy khi mua bán cũ mà không sang tên đổi chủ được quy định như sau:
-
-### 1. Thời hạn thực hiện thủ tục
-
-Theo Thông tư 24/2023/TT-BCA, thời hạn để hoàn thành các thủ tục sau khi mua bán xe gắn máy là **30 ngày**, cụ thể:
-
-- **Đối với người bán (chủ xe cũ):** Trong thời hạn **30 ngày**, kể từ ngày làm giấy tờ chuyển quyền sở hữu xe, chủ xe phải làm thủ tục thu hồi tại cơ quan đăng ký xe. Chủ xe phải giữ lại chứng nhận đăng ký xe, biển số xe (không giao cho người mua) và nộp cho cơ quan đăng ký xe để làm thủ tục thu hồi.
-- **Đối với người mua (chủ xe mới):** Trong thời hạn **30 ngày**, kể từ ngày làm giấy tờ chuyển quyền sở hữu xe, chủ xe phải thực hiện thủ tục đăng ký sang tên xe tại cơ quan đăng ký xe theo quy định.
-
-### 2. Mức xử phạt khi quá thời hạn
-
-Nếu quá thời hạn 30 ngày nêu trên mà không thực hiện thủ tục sang tên đổi chủ, người mua (chủ xe mới) sẽ bị xử phạt hành chính theo quy định tại Nghị định 100/2019/NĐ-CP (được giữ nguyên mức phạt tại điểm này theo các nội dung sửa đổi của Nghị định 123/2021/NĐ-CP).
-
-**Mức phạt đối với hành vi "Không làm thủ tục đăng ký sang tên xe" khi mua xe gắn máy là:**
-
-- **Đối với cá nhân:** Phạt tiền từ **400.000 đồng đến 600.000 đồng**.
-- **Đối với tổ chức:** Phạt tiền từ **800.000 đồng đến 1.200.000 đồng**.
-
-### Một số lưu ý quan trọng khác:
-
-- **Về biển số:** Hiện nay theo quy định mới, biển số xe được cấp và quản lý theo **mã định danh của chủ xe**. Khi chuyển quyền sở hữu xe, biển số xe sẽ được cơ quan đăng ký xe thu hồi và giữ lại cho chủ xe cũ trong thời hạn 05 năm để cấp lại khi chủ xe đó đăng ký xe khác.
-- **Trách nhiệm pháp lý:** Trường hợp chủ xe không làm thủ tục thu hồi sau khi chuyển quyền sở hữu xe thì phải **chịu trách nhiệm trước pháp luật về các hành vi vi phạm liên quan đến xe đó** cho đến khi làm thủ tục thu hồi.
-- **Biện pháp khắc phục hậu quả:** Ngoài việc bị phạt tiền, người vi phạm còn bị buộc phải làm thủ tục đăng ký sang tên theo quy định.
-
 ## Chat
 
 ### Q1
